@@ -2,6 +2,7 @@
 /?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
 /&audio.ogg  ><>< only .ogg files pls :)
 /#Background.jpg    automaticlaclaoty stretches an image for use an background
+/* Advances to the next act
 
 /type out how you want the act to play out below
 
