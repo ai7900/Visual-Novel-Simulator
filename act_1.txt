@@ -1,0 +1,7 @@
+/=SPRITE_NAME.png  load a sprite to be displayed in game. removes sprite if it already exists
+/?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
+/&audio.ogg  ><>< only .ogg files pls :)
+/#Background.jpg    automaticlaclaoty stretches an image for use an background
+
+/type out how you want the act to play out below
+
