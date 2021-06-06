@@ -4,4 +4,7 @@
 /insert your acts below.
 /they will play out in the order you typed them in btw fyi. Make shure to type in the exact name pls
 / ex: "!FILENAME.txt"
+
 !act_1.txt
+
+/act_2.txt  etc
