@@ -1,0 +1,103 @@
+/=SPRITE_NAME.png  load a sprite to be displayed in game. removes sprite if it already exists
+/?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
+/&audio.ogg  ><>< only .ogg files pls :)
+
+/type out how you want the act to play out below
+
+/ASSETS:
+/#japan.jpg
+/#mattias_kök.jpg
+/#mattias_vardagsrum.jpg
+/#mattias_vardagsrum2.jpg
+/#malmö.jpg
+/#malmö_carfires.jpg
+/#train1.jpg
+/#train2.jpg
+/#vg.jpg
+
+/=gabe_left.png
+/=gabe_right.png
+/=gabe_wut.png
+/=mattias_disgusted.png
+/=mattias_ful.png
+/=mattias_lookingdown.png
+/=mattias_nazi.png
+/=mattias_think.png
+/=mario_idle.png
+/=luigi_idle.png
+/=plastic_man.png
+
+/&Crusty_sfx.ogg
+/&Discord_notis.ogg
+/&Sleeping_sfx.ogg
+
+
+??Mattias Hotel Brothers 4: Journey of The Drawing Skills
+#mattias_vardagsrum.jpg
+=mattias_lookingdown.png
+&Sleeping_sfx.ogg
+??Z
+??Zz
+??Zzz
+??*Discord notification*
+&Discord_notis.ogg
+=mattias_lookingdown.png
+=mattias_ful.png
+=mattias_ful.png
+=mattias_think.png
+?Mattias:? HUH!? hu? what the fuk was that?
+?Mattias? ...
+??*click click*
+?Mattias:? oh Gabriel(my best and only fren) wants something on dickord
+?Mattias:? "I'm getting on the train now to finally come visit you in Malmo //Gabriel"
+&Discord_notis.ogg
+?Gabriel(Discord)?"C ya soon fagget shid"
+&Discord_notis.ogg
+?Gabriel(Discord)?"shid*"
+&Discord_notis.ogg
+?Gabriel(Discord)?"shit** ffs"
+=mattias_think.png
+=mattias_ful.png
+?Mattias? Oh fuk. And I was thinking of spending my whole day playing Mario games.
+=mattias_ful.png
+=mattias_think.png
+?Mattias:? guess I'll have to get crusty ass out of my semen-semented chair then..
+?Mattias:? ugh..
+=mattias_think.png
+&Crusty_sfx.ogg
+??*Mattias get's up out of his chair*
+#mattias_vardagsrum2.jpg
+?? ...
+=mattias_ful.png
+?Mattias:? Damn, it's messy in here...
+?Mattias:? Fuck that, maybe another day I guess
+=mattias_ful.png
+=mattias_think.png
+#mattias_vardagsrum.jpg
+&Crusty_sfx.ogg
+??*Mattias sits down in his chair again*
+=mattias_think.png
+=mattias_lookingdown.png
+&Sleeping_sfx.ogg
+??...
+??Z
+??Zz
+??Zzz
+?? *Meanwhile in Another Part of The Country...*
+=mattias_lookingdown.png
+??
+#train2.jpg
+??Karlskrona Train Station
+??*Footsteps approaches*
+
+
+
+
+
+
+
+
+
+
+
+
