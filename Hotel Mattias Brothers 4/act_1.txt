@@ -1,6 +1,14 @@
 /=SPRITE_NAME.png  load a sprite to be displayed in game. removes sprite if it already exists
 /?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
 /&audio.ogg  ><>< only .ogg files pls :)
+/#Background.jpg    automaticlaclaoty stretches an image for use an background
+/* Advances to the next act
+/%  bgm  
+/¤  bgm stop 
+
+/&  audio effect   
+/§  audio effect stop  
+
 
 /type out how you want the act to play out below
 
@@ -39,8 +47,9 @@
 ??Z
 ??Zz
 ??Zzz
-??*Discord notification*
+§Sleeping_sfx.ogg
 &Discord_notis.ogg
+??*Discord notification*
 =mattias_lookingdown.png
 =mattias_ful.png
 =mattias_ful.png
@@ -67,6 +76,7 @@
 &Crusty_sfx.ogg
 ??*Mattias get's up out of his chair*
 #mattias_vardagsrum2.jpg
+§Crusty_sfx.ogg
 ?? ...
 =mattias_ful.png
 ?Mattias:? Damn, it's messy in here...
@@ -77,15 +87,16 @@
 &Crusty_sfx.ogg
 ??*Mattias sits down in his chair again*
 =mattias_think.png
+§Crusty_sfx.ogg
 =mattias_lookingdown.png
 &Sleeping_sfx.ogg
 ??...
 ??Z
 ??Zz
 ??Zzz
-?? *Meanwhile in Another Part of The Country...*
 =mattias_lookingdown.png
-??>.
+§Sleeping_sfx.ogg
+?? *Meanwhile in Another Part of The Country...*
 *
 
 
