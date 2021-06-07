@@ -24,7 +24,198 @@
 /&Crusty_sfx.ogg
 /&Discord_notis.ogg
 /&Sleeping_sfx.ogg
+/%Crowd_ambiance.ogg
+/&Door1_openAndClose_sfx.ogg
+/&Door2_openAndClose_sfx.ogg
+/&Door1_open_sfx.ogg
+/&Door2_open_sfx.ogg
+/&Door1_close_sfx.ogg
+/&Door2_close_sfx.ogg
+/&Door_lock.ogg
+
 
 #train2.jpg
-??Karlskrona Train Station
-??*Footsteps approaches*
+%Crowd_ambiance.ogg
+?? Karlskrona Train Station
+?? Footsteps approaches
+=gabe_right.png
+?Gabriel:? Whelp! Here I am finally!
+?Gabriel:? On my way to see Mattias-kun in Malmo.
+?Gabriel:? After all these years...
+?Gabriel:? Well, I better go take a seat as the train is about to take off.
+¤Crowd_ambiance.ogg
+=gabe_right.png
+&Door1_open_sfx.ogg
+#train.jpg
+?? Gabriel enters the seating area of the train
+&Door1_close_sfx.ogg
+%Train_inside_ambiance.ogg
+=gabe_right.png
+?? *step*
+=gabe_right.png
+=empty.png
+=gabe_right.png
+?? *step*
+=gabe_right.png
+=empty2.png
+=gabe_right.png
+?? *step*
+=gabe_right.png
+=gabe_left.png
+?Gabriel:? This seat looks neat.
+¤Train_inside_ambiance.ogg
+&Crusty_sfx.ogg
+?? *sits down*
+§Crusty_sfx.ogg
+%Train_inside_ambiance.ogg
+?Gabriel:? I'll be there in no time.
+?? Train takes off
+%TrainAndMusic_music.ogg
+?? Peaceful Anime Traveling Scenery Montage Starts
+=gabe_left.png
+#train3.jpg
+?? ...
+#train_pokemon.jpg
+?? ...20Min Later
+#train_outside1.jpg
+?? ...1H 25Min Later
+#train.jpg
+=gabe_left.png
+??.
+??..
+??...
+?Gabriel:? Hmm. I should call Mattias-kun and make sure that he hasn't killed himself or anything.
+=gabe_left.png
+=gabe_wut.png
+?Gabriel:? You never know with retards like him.
+=gabe_wut.png
+=gabe_left.png
+?Gabriel:? I should also tell the fat fuck that I've almost arrived now.
+?? *Picks up phone*
+?? Gabriel calls Mattias
+¤TrainAndMusic_music.ogg
+=gabe_left.png
+#mattias_vardagsrum.jpg
+=mattias_lookingdown.png
+%Sleeping_sfx.ogg
+?Mattias:? Z..
+?Mattias:? Zz.
+?Mattias:? Zzz Mmmh yes~ 
+?Mattias:? Zzz ..Just like that...
+?Mattias:? Zzz ..Ahh~ Just don't tell your brother Luigi about all this. 
+%Discord_call_sfx.ogg
+?? Incoming Discord Call
+§Sleeping_sfx.ogg
+=mattias_lookingdown.png
+=mattias_disgust.png
+?Mattias:? HUH!
+=mattias_disgust.png
+=mattias_think.png
+?Mattias:? Oh, It's Gabriel-sama!
+=mattias_think.png
+=mattias_idle.png
+?Mattias:? Man.. He's such a true friend for calling me like this out of nowhere!
+¤Discord_call.ogg
+&Discord_joincall_sfx.ogg
+?? *Joins call*
+?Gabriel(Discord):? Konnichiwa Mattias-san, Genki desu ka?
+=mattias_idle.png
+=mattias_disgust.png
+?Mattias:? It's "Mattias-kun" you spastic FUCKING piece of retarded resedue of trash!
+?Gabriel(Discord):? Okay geez.. Forget about it. Anywa..
+=mattias_disgust.png
+=mattias_think.png
+?Mattias:? No, it's not "oKaY", Read a fucking manga for once.
+=mattias_think.png
+=mattias_idle.png
+?Mattias:? Like me!
+?Mattias:? Yeah, I read mangas.
+&Discord_joincall_sfx.ogg
+?? Andu joins the call
+?Andu(Discord):? "Like Ma.."
+?Andu(Discord):? "Like Matti.." 
+?Andy(Discord):? "Read mangas, like Mattias"
+=mattias_idle.png
+=mattias_disgust.png
+?Andy(Discord):? "Criiinge, like Mattias"
+&Discord_leavecall_sfx.ogg
+?? Andu leaves the call
+??.
+??..
+??...
+=mattias_disgust.png
+=mattias_think.png
+?Gabriel(Discord):? Damn... F A C T S.
+?Mattias:? ..oh yeah?
+=mattias_think.png
+=mattias_idle.png
+?Mattias:? Well.. I get all my facts from reading manga.
+?Mattias:? Yep, that's me.
+?Mattias:? I read mangas. That's my thing. 
+?Gabriel(Discord):? Okay! we get it.
+?Gabriel(Discord):? You don't have any other cherishable personallity traits.
+=mattias_idle.png
+=mattias_think.png
+?Gabriel(Discord):? Now stfu about it.
+?Gabriel(Discord):? Anyways, I was meaning to tell you that I'm almost in Malmo now.
+?Gabriel(Discord):? ... You did complete the VN you promised to make??
+=mattias_think.png
+=mattias_lookingdown.png
+?Mattias? ...
+?Gabriel(Discord):? Did you?
+=mattias_lookingdown.png
+=mattias_think.png
+?Mattias:? Ye, no... I'm sorry
+?Mattias:? I spent all day playing Mario Party all by myself and drawing Mario fucking Peach in Krita.
+?Gabriel(Discord):? Dude, what's with you and Mario?
+?Mattias:? Man.. idk,
+?Mattias:? I just want to unbuckle his braces and pull off his blue tight pants and..
+?Gabriel(Discord):? DUDE!
+?Gabriel(Discord):? Okay! stop please
+=mattias_think.png
+=mattias_lookingdown.png
+?Mattias:? ...
+=mattias_lookingdown.png
+=mattias_think.png
+?Gabriel(Discord):? Oh also!
+?Gabriel(Discord):? Have you heard about what happened in Japan??
+?Mattias:? Dude.. Who fucking cares what happens in Japan omegalul xd.
+?Mattias:? Like what has Japan ever produced that I'd like?
+?Gabriel(Discord):? I'm not sure dude. But apparently a super secret drawing technique leaked from an anime studio.
+?Gabriel(Discord):? We must go there and seek for it's knowledge!
+?Mattias:? ...
+?Mattias:? What in fuck is "aNiMe"?
+?Gabriel(Discord):? ...
+?Gabriel(Discord):? You want to hone your manga drawing skills, don't you??
+=mattias_think.png
+=mattias_ful.png
+?Mattias:? Uuuurgh DUUURR!!! yeah but what does that have to do with anime and japa..
+?Gabriel(Discord):? Manga is from Japan Mattias!
+=mattias_ful.png
+=mattias_think.png
+?Mattias:? Whaa no?? Wha..
+?Gabriel(Discord):? d-Dude are you fucking serious right now??
+?Gabriel(Discord):? But nevertheless. You'll have to trust me on this one.
+?Gabriel(Discord):? We shall go there once you've showed me Malmo.
+?Gabriel(Discord):? OH! Here's my stop.
+?Gabriel(Discord):? I already have your address from earlier when you kept begging for me to come visit.
+?Gabriel(Discord):? So I'll find my way to your place and I'll see you soon!
+&Discord_leavecall_sfx.ogg
+?? Gabriel leaves the call
+?Mattias:? Huh..
+=mattias_think.png
+=mattias_idle.png 
+?Mattias:? You heard that Andu?
+?Mattias:? We have company.
+=mattias_idle.png
+=empty2.png
+=mattias_idle.png
+=andu_cool.png
+?Andu:? Damn cringe yo, Bustin' no cap, finna Uwu ngl
+?Andu:? Shit be slammin' yo!
+?Mattias:? ...
+?Andu:? ...
+?? ...
+* 
+
+

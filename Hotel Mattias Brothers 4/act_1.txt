@@ -39,53 +39,62 @@
 /&Discord_notis.ogg
 /&Sleeping_sfx.ogg
 
-
-??Mattias Hotel Brothers 4: Journey of The Drawing Skills
+%Silhouette_music.ogg
+#Shojo.png
+??Mattias Hotel Brothers 4: Journey of the Missing Drawing Skill
+¤Silhouette_music.ogg
 #mattias_vardagsrum.jpg
+=empty.png
+=empty2.png
 =mattias_lookingdown.png
 &Sleeping_sfx.ogg
-??Z
-??Zz
-??Zzz
+?Mattias:? Z..
+?Mattias:? Zz.
+?Mattias:? Zzz
 §Sleeping_sfx.ogg
 &Discord_notis.ogg
-??*Discord notification*
+?? Discord notification alert
 =mattias_lookingdown.png
 =mattias_ful.png
 =mattias_ful.png
 =mattias_think.png
 ?Mattias:? HUH!? hu? what the fuk was that?
 ?Mattias? ...
-??*click click*
-?Mattias:? oh Gabriel(my best and only fren) wants something on dickord
-?Mattias:? "I'm getting on the train now to finally come visit you in Malmo //Gabriel"
+?? *click*
+?? *click*
+?Mattias:? Oh Gabriel-sama(my best and only tomodachi) wants something on Dickord.
+?Mattias:? "I'm getting on the train now to finally come visit you in Malmo" -Gabriel.
 &Discord_notis.ogg
-?Gabriel(Discord)?"C ya soon fagget shid"
+?Gabriel(Discord)? C ya soon fagget shid!
 &Discord_notis.ogg
-?Gabriel(Discord)?"shid*"
+?Gabriel(Discord)? shid*
 &Discord_notis.ogg
-?Gabriel(Discord)?"shit** ffs"
+?Gabriel(Discord)? shit**
 =mattias_think.png
 =mattias_ful.png
-?Mattias? Oh fuk. And I was thinking of spending my whole day playing Mario games.
+?Mattias? Oh fuk. And watashi(I) was thinking of spending my whole day playing Mario games.
 =mattias_ful.png
 =mattias_think.png
-?Mattias:? guess I'll have to get crusty ass out of my semen-semented chair then and clean my room..
-?Mattias:? ugh..
+?Mattias:? Guess I'll have to get my crusty ass out of my semen-semented chair then and clean my room..
+?Mattias:? Ugh..
 =mattias_think.png
 &Crusty_sfx.ogg
-??*Mattias get's up out of his chair*
+?? Mattias get's out of his chair
+=empty.png
+=empty2.png
 #mattias_vardagsrum2.jpg
 §Crusty_sfx.ogg
 ?? ...
 =mattias_ful.png
 ?Mattias:? Damn, it's messy in here...
-?Mattias:? Fuck that, maybe another day I guess
+?Mattias:? Fuck that, maybe another day I guess.
 =mattias_ful.png
+=empty.png
+=empty2.png
 =mattias_think.png
 #mattias_vardagsrum.jpg
 &Crusty_sfx.ogg
-??*Mattias sits down in his chair again*
+?? Mattias sits down in his chair again
 =mattias_think.png
 §Crusty_sfx.ogg
 =mattias_lookingdown.png
@@ -96,7 +105,8 @@
 ??Zzz
 =mattias_lookingdown.png
 §Sleeping_sfx.ogg
-?? *Meanwhile in Another Part of The Country...*
+?? Meanwhile.. 
+?? In Another Distant Part of the Country...
 *
 
 
