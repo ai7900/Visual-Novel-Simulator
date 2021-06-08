@@ -18,6 +18,7 @@
 	/andu_cool.png
 	/andu_pog.png
 	/gabe_wut.png
+	/mattias_think.png
 	
 /bgm
 	/
@@ -66,3 +67,5 @@
 ?Gabriel? Piss.
 ?Andu? haha lol no!
 ?_???_? You fools
+=mattias_think.png
+?Mattias? this is kinda gross stop this
