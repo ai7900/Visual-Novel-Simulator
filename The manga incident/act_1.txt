@@ -1,0 +1,68 @@
+/=SPRITE_NAME.png  load a sprite to be displayed in game. removes sprite if it already exists
+/?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
+/&audio.ogg  ><>< only .ogg files pls :)
+/#Background.jpg    automaticlaclaoty stretches an image for use an background
+/* Advances to the next act
+/%  bgm  
+/¤  bgm stop 
+
+/&  audio effect   
+/§  audio effect stop  
+
+/backgrounds
+	/gabriel_bathroom.png
+	
+/sprites
+	/empty.png
+	/plastic_man.png
+	/andu_cool.png
+	/andu_pog.png
+	/gabe_wut.png
+	
+/bgm
+	/
+	
+/sfx
+	/
+
+
+/type out how you want the act to play out below
+#gabriel_bathroom.png
+=empty.png
+=plastic_man.png
+?Gabriel? Sup, welcome to my crib.
+?Gabriel? My name is gaybriel.
+?Gabriel? I mean, my name is gabriel.
+?Gabriel? What was that? You wanted to use the bathroom?
+?Gabriel? Don't mind me, let me just move my PC.
+?Gabriel? .
+?Gabriel? ..
+?Gabriel? ...
+=empty.png
+?Gabriel? Fuck it, just piss on it instead, I do that too sometimes.
+?Gabriel? I'm goning to my kitchen now to fry some shrimp ships in piss oil. brb
+=plastic_man.png
+=andu_cool.png
+?Andu? Oh wow, time to take a piss.
+=andu_cool.png
+=andu_pog.png
+?Andu? Ahh, that feels great.
+=andu.pog.png
+=andu_cool.png
+=gabe_wut.png
+?Gabriel? Everything going alright in here?
+?Andu? Yeah, your pc smells like piss tho
+?Gabriel? Haha, lol, roffellammel yeah...
+?Gabriel? That's because I piss on it often.
+?Gabriel? I don't dislike the smell
+?Andu? You're weird.
+?Gabriel? Är det inte normalt?
+?Andu? What was that?
+?Gabriel? Isn't it normal to like it?
+?Andu? Like what?
+?Gabriel? .
+?Gabriel? ..
+?Gabriel? ...
+?Gabriel? Piss.
+?Andu? haha lol no!
+?_???_? You fools
