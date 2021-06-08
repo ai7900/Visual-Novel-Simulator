@@ -1,0 +1,125 @@
+/=SPRITE_NAME.png  load a sprite to be displayed in game. removes sprite if it already exists
+/?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
+/&audio.ogg  ><>< only .ogg files pls :)
+/#Background.jpg    automaticlaclaoty stretches an image for use an background
+/* Advances to the next act
+/%  bgm  
+/¤  bgm stop 
+
+/&  audio effect   
+/§  audio effect stop  
+
+/backgrounds
+	/gabriel_bathroom.png
+	
+/sprites
+	/empty.png
+	/plastic_man.png
+	/andu_cool.png
+	/andu_pog.png
+	/gabe_wut.png
+	/mattias_think.png
+	
+/bgm
+	/
+	
+/sfx
+	/
+
+
+/type out how you want the act to play out below
+#gabriel_bathroom.png
+=empty.png
+=plastic_man.png
+?Gabriel? Sup, welcome to my crib.
+?Gabriel? My name is gaybriel.
+?Gabriel? I mean, my name is gabriel.
+?Gabriel? What was that? You wanted to use the bathroom?
+?Gabriel? Don't mind me, let me just move my PC.
+?Gabriel? .
+?Gabriel? ..
+?Gabriel? ...
+=empty.png
+?Gabriel? Fuck it, just piss on it instead, I do that too sometimes.
+?Gabriel? I'm goning to my kitchen now to fry some shrimp ships in piss oil. brb
+=plastic_man.png
+=andu_cool.png
+?Andu? Oh wow, time to take a piss.
+=andu_cool.png
+=andu_pog.png
+?Andu? Ahh, that feels great.
+=andu_pog.png
+=andu_cool.png
+=gabe_wut.png
+?Gabriel? Everything going alright in here?
+?Andu? Yeah, your pc smells like piss tho
+?Gabriel? Haha, lol, roffellammel yeah...
+?Gabriel? That's because I piss on it often.
+?Gabriel? I don't dislike the smell
+?Andu? You're weird.
+?Gabriel? Ar det inte normalt?
+?Andu? What was that?
+?Gabriel? Isn't it normal to like it?
+?Andu? Like what?
+?Gabriel? .
+?Gabriel? ..
+?Gabriel? ...
+?Gabriel? Piss.
+?Andu? haha lol no!
+?Mysterious voice? You kuzai fools
+=andu_cool.png
+=gabe_wut.png
+=mattias_think.png
+=andu_cool.png
+=gabe_wut.png
+?Mattias? this is kinda gross stop this
+?Gabriel? You're kinda gross lol
+?Andu? Haha, look who's talking xD
+?Mattias? Yeah, don't even try to talk back to me bitch
+?Gabriel? Bu-but..
+??Mattias clenches his fists at Gabriel
+?Gabriel? Ahh! D-don't Yamete kudasai!
+?Mattias? Precis, vet din plats!
+?Mattias? btw, du drommer just nu Gabriel. Du maste vakna upp!
+?Gabriel? Jag drommer? Vad ar det på japanska? 
+?Mattias? "Yume" din retard
+?Mattias? Ta på dig denna
+??Mattias slanger en plastpase på gabriels huvud.
+?Gabriel? Okej Goshujin-sama Master.
+=gabe_wut.png
+=plastic_man.png
+?Gabriel? Now what?
+?Mattias? Andas in och ut.
+?Gabriel? Hai!
+??Gabriel breathes in and out frantically and faints.
+=plastic_man.png
+=mattias_think.png
+=andu_cool.png
+??End of chapter 1
+
+??Gabriel's Room 13:04
+?Gabriel?Z
+?Gabriel?Zz
+?Gabriel?Zzz
+?Gabriel?!
+?Gabriel? It's day already? I must've dozed off.
+?Gabriel? Such a pleasant dream I had, it was kinda uncanny tho.
+?Gabriel? I like piss and all, but I don't own a laptop or a bathtub.
+?Gabriel? Recently I've been frying in a mixture of 30% oil and 70% piss to save on money.
+?Gabriel? I've never experienced such a delishous combination before.
+?Gabriel? I think I'm gonna fry shrimp chips later today.
+?Gabriel? Oh there's one on the floor under my dirty underwear and socks.
+??Gabriel grabs the spoiled shrim chip from the ground and proceeds to eat it.
+?Gabriel? Kinda stale and musky, but that's the way I like it!
+?Gabriel? Enough about that. Let's check dickord.
+?Gabriel? Let's see, first I'm gonna check my Always Giving Up Discord.
+?Gabriel? Nothing interesting...
+?Gabriel? Why don't they talk more about black people?
+?Gabriel? I love to talk about blacks, expecially if they're opressed or wealthy.
+?Gabriel? Let's check the superiour discord that Andu and Mattias is in.
+?Gabriel? What is this? Mattias and Andu is in voice talking with eachother.
+?Gabriel? Heh, looks like my Mentor Mattias is playing that game I really want to play.
+?Gabriel? What whas it called again? Final Fuck Fantasy, or something..?
+?Gabriel? Too bad I'm too stubborn to just admit that I really want to play it...
+?Gabriel? Time to join their call and not say a word for a minute like I always do!
+?Me - Mattias?I don't wanna write anymore of this becuase gabriel will start crying.
