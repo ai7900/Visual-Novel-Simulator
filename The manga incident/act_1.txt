@@ -47,7 +47,7 @@
 =andu_cool.png
 =andu_pog.png
 ?Andu? Ahh, that feels great.
-=andu.pog.png
+=andu_pog.png
 =andu_cool.png
 =gabe_wut.png
 ?Gabriel? Everything going alright in here?
