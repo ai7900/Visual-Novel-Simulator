@@ -103,9 +103,9 @@
 ?Mattias:? Zzz Mmmh yes~ 
 ?Mattias:? Zzz ..Just like that...
 ?Mattias:? Zzz ..Ahh~ Just don't tell your brother Luigi about all this. 
+§Sleeping_sfx.ogg
 %Discord_call_sfx.ogg
 ?? Incoming Discord Call
-§Sleeping_sfx.ogg
 =mattias_lookingdown.png
 =mattias_disgust.png
 ?Mattias:? HUH!
@@ -211,6 +211,7 @@
 =empty2.png
 =mattias_idle.png
 =andu_cool.png
+??Andu get's out of Mattias bed and steps into frame
 ?Andu:? Damn cringe yo, Bustin' no cap, finna Uwu ngl
 ?Andu:? Shit be slammin' yo!
 ?Mattias:? ...
