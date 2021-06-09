@@ -1,21 +1,44 @@
-/=SPRITE_NAME.png  load a sprite to be displayed in game. removes sprite if it already exists
+NEW AWESOME COMMANDS!
 
-/?NAME OF CHARACTER?DIALOGUE  show some dialogue on thy screen
+/				This is a comment. it will be ignored
 
-/&audio.ogg  ><>< only .ogg files pls :)
+!dia NAME! DIALOGUE		Displays text & name, make shure to not forget the '!' after the name
+!actor sprite.jpg		Displays a sprite, removes it if it already exists
+!bg background.jpg 		Sets the current background
 
-/#Background.jpg    automaticlaclaoty stretches an image for use an background
+!audioplay sound.ogg		Make som noise, .ogg files only!
+!audiostop			Destroys the current sound effect 
 
-/* Advances to the next act
+!bgmstart sound.ogg		Start jammin with background music, .ogg files only!
+!bgmstop			Stops the current background music from playing
 
-/%  bgm  
-/¤  bgm stop 
+!nextact			Advances to the next act.txt file
 
-/&  audio effect   
-/§  audio effect stop  
+!autoadvance NUM		Auto advances the next dialogue after set amount of time(in game frames; 60 frames = 1 second)
+!typewriterspeed NUM		Sets the typewriter effect speed, 0 for instant text, 1 is default
 
-/+NUMBER	Auto advances the next dialogue after set amount of time(in game frames; 60 frames = 1 second)
-/+60
 
-/^NUMBER	Typewriter speed, 1 : default
-/^0		0 for instant text
+
+
+Examples below
+
+!bg mushroom_kingdom.png
+
+!typewriterspeed 0.75
+
+!actor mario.jpg
+!actor luigi.png
+
+!dia Mario! My brother Luigi gonna show you his cock
+!dia Luigi! Hello Mario, Hello I'm Luigi
+
+!actor luigi.png
+!actor luigi_menacing.png
+
+!bgmstart rape_music.ogg
+!audioplay laugh.ogg
+
+!typewriterspeed 0.1
+!autoadvance 120
+
+!dia Luigi! I'm going to show you my cock now
