@@ -1,0 +1,25 @@
+/type out how you want the act to play out below
+
+!dia Mother Mario! Nice asshole
+
+!dia !  ACT 1
+!typewriterspeed 0
+!dia  ! Hotel mario in rpgmaker tutorial #1 press left mouse button 2 continue
+!typewriterspeed 0.5
+!audioplay mario1.ogg
+!bg bg1.png
+!actor mario_idle.png
+!actor luigi_idle.png
+!dia Mario! Nice of the princess 2 invite us over 4 a piccuniccu, Gay fucker, Luigi?
+!autoadvance 50
+!dia Luigi! I hope she made lots of spaghetti
+!dia Mario! Luigi! Look!
+!typewriterspeed 0.1
+!dia Mario! It's from bowow
+!typewriterspeed 0
+!dia  !END OF ACT 1
+
+!dia   !FOR MORE INFO ON HOW TO GET TO THE SEVEN HOTELS
+
+!dia   !CHECK OUT THE ENCLOSED README
+!nextact
