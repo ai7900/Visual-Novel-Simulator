@@ -1,0 +1,9 @@
+/insert your acts below.
+/they will play out in the order you typed them in btw fyi. Make shure to type in the exact name pls
+/ex: "!FILENAME.txt"
+
+!example_act.txt
+
+/!Marios Revenge.txt
+/!Luigis Return.txt
+/etc
