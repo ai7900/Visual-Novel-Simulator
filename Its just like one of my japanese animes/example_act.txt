@@ -1,1 +1,21 @@
-!dia 
+!actor human_normal.png
+!dia  ???! sup
+
+!actor neco_normal.png
+!dia neco! hello
+!actor neco_normal.png
+!actor neco_talk.png
+!dia neco! what's up nya~?
+
+!actor neco_talk.png
+
+!actor human_normal.png
+!actor human_talk.png
+!actor neco_talk.png
+!dia ???! Your mouth looks weird IRL.
+
+!actor neco_talk.png
+!actor neco_uh.png
+!actor human_talk.png
+!dia neco! ...
+
