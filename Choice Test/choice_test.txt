@@ -4,9 +4,9 @@
 
 !bgmplay Mamahorror.ogg
 !bg bedrum.jpg
-!dia !E.
+!dia !Press any button :)
 !goto 25
-
+!goto 57
 /GAME OVER SCREEN
 !dia !GAME OVER
 !dia !Would you like to try again?
@@ -38,13 +38,13 @@
 !dia !What will you do?
 
 !choice KILL Attempt to KILL Mario with your bare hands.
-!choice SPARE Let it happen.
+!choice SPARE Just let it happen...
 !choice HIDE Attempt to run away.
 !choice_end
 
 !answer KILL
 !dia !You spring up from your bed and ready yourself for a fight to the death.
-!dia !The next think you know you found yourself in a puddle of shit and piss.
+!dia !The next thing you know you've found yourself in a puddle of shit and piss.
 !dia !Mario is currently devouring your entire ass.
 !dia !Everything fades into black.
 !goto 8
@@ -55,7 +55,43 @@
 !goto 8
 
 !answer HIDE
-!dia !You hide under your bed.
+!bgmstop
+!bg under_bed.jpg
+!dia !You hastily hide under your bed.
+!autoadvance 300
+!audioplay doorcreak.ogg
+!dia !
+!autoadvance 200
+!typewriterspeed 0.05
+!dia !..........................
+!bg under_bed_found.jpg
+!audioplay open_salami.ogg
+!typewriterspeed 0.15
+!dia Mario!Open salami.
+!typewriterspeed 0.7
+!dia !Mario easily found you.
+!audioplay heartbeat.ogg
+!autoadvance 200
+!dia !
+!dia !A few moments pass and Mario just keeps staring at you.
+!dia !...
+!dia !....
+!choice RUN Get the fuck out of here.
+!choice WAKE Wake up.
+!choice_end
+
+!answer RUN
+!dia !You attempt to run away, but Mario grabs you by the arm.
+!dia !insert black screen & gore sound effects into game over screen here pls
+!goto 11
+
+
+!answer WAKE
+!dia !Wake up Impa, you need to fix the retarded choice logic in game maker. It doesn't work
 
 !goto 8
+
+
+
+
 
