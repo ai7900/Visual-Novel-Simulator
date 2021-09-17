@@ -1,25 +1,19 @@
 //
-// Simple passthrough fragment shader
+// Simple passthrough vertex shader
 //
+attribute vec3 in_Position;                  // (x,y,z)
+//attribute vec3 in_Normal;                  // (x,y,z)     unused in this shader.
+attribute vec4 in_Colour;                    // (r,g,b,a)
+attribute vec2 in_TextureCoord;              // (u,v)
+
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
-uniform float pixelH;	// Pixel hight
-uniform float pixelW;	// Pixel width
-
 
 void main()
 {
-	vec2 offsetx;
-	offsetx.x = pixelW;
-	vec2 offsety;
-	offsety.y = pixelH;
-	
-	float alpha = texture2D(gm_BaseTexture, v_vTexcoord).a;					// finds the transparency of the pixel we're currently drawing
-	alpha += ceil(texture2D(gm_BaseTexture, v_vTexcoord + offsetx).a);		// round up value and offset 1 pixel to the right
-	alpha += ceil(texture2D(gm_BaseTexture, v_vTexcoord - offsetx).a);		// round up value and offset 1 pixel to the left
-	alpha += ceil(texture2D(gm_BaseTexture, v_vTexcoord + offsety).a);		// round up value and offset 1 pixel to the above
-	alpha += ceil(texture2D(gm_BaseTexture, v_vTexcoord - offsety).a);		// round up value and offset 1 pixel to the below
-	
-    gl_FragColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
-	gl_FragColor.a = alpha;
+    vec4 object_space_pos = vec4( in_Position.x, in_Position.y, in_Position.z, 1.0);
+    gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;
+    
+    v_vColour = in_Colour;
+    v_vTexcoord = in_TextureCoord;
 }

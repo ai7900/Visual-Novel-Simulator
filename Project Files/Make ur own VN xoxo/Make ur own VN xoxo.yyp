@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"shOutline","path":"shaders/shOutline/shOutline.yy",},"order":0,},
     {"id":{"name":"sDefaultBorder","path":"sprites/sDefaultBorder/sDefaultBorder.yy",},"order":2,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"sSnakeButton","path":"sprites/sSnakeButton/sSnakeButton.yy",},"order":5,},
