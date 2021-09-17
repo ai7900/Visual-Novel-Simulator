@@ -1,0 +1,61 @@
+/!choice ID text
+/!answer ID
+/!choice_end
+!border border.png
+!bgmplay Mamahorror.ogg
+!bg bedrum.jpg
+!dia !E.
+!goto 25
+
+/GAME OVER SCREEN
+!dia !GAME OVER
+!dia !Would you like to try again?
+!choice YES Ye boi.
+!choice NO Nope lol
+!choice_end
+
+!answer YES
+!goto 0
+
+!answer NO
+!dia !Then close the game retard
+!goto 0
+
+
+!dia !You hear a loud bang as you're thrust awake in the middle of the night.
+!dia !Someone has broken into your home
+!audioplay itsame.ogg
+!dia !You can hear a faint scream coming from downstairs.
+!dia !The voice reminds you of a certain someone...
+!audioplay footsteps.ogg
+!dia !There's no time to think, you can hear the intruder approach your bedroom.
+!audioplay marioh.ogg
+!typewriterspeed 0.1
+!dia Intruder!Mario....
+!typewriterspeed 1
+!dia !It's Mario! He's come to eat your ass..!
+!dia !What will you do?
+
+!choice KILL Attempt to KILL Mario with your bare hands.
+!choice SPARE Let it happen.
+!choice RUN Attempt to run away.
+!choice_end
+
+!answer KILL
+!dia !You spring up from your bed and ready yourself for a fight to the death.
+!dia !The next think you know you found yourself in a puddle of shit and piss.
+!dia !Mario is currently devouring your entire ass.
+!dia !Everything fades into black.
+!goto 8
+
+!answer SPARE
+!dia !I don't really wanna go into the exact details of what happens next, so you're gonna have to imagine.
+!dia !Your entire ass was devoured by Mario.
+!goto 8
+
+!answer RUN
+!dia !You opened the bedroom window and climbed outside onto your roof.
+!dia !It is freezing cold and close to pitch black outside.
+!dia !TO BE CONTINUED :O!!!
+!goto 8
+

@@ -1,0 +1,132 @@
+while (_repeat)
+{
+	_repeat = false;
+	
+	
+	if ( nextLine )
+	{
+		nextLine = false;
+		dialogue_typewriter_pos = 0;
+		line = file_text_read_string(currentAct);
+		action = string_copy(line,0,1);
+	
+		switch(action)
+		{
+		
+			case "=": //sprite
+				var spriteName = string_copy(line,2,40);
+				var dupe = ds_list_find_index(spriteList,spriteName);
+			
+				if ( dupe == -1 )
+				{
+					ds_list_add(spriteList, spriteName);
+				}else
+				{
+					ds_list_delete(spriteList,dupe);
+				}
+				nextLine = true;
+				_repeat = true;
+			break;
+		
+			case "?": //dialogue
+			
+				//filters out name / actual dialogue
+				var o;
+				for( var i = 2; i < 20; i++ )
+				{
+					o = string_copy(line,i,1);
+					if ( o == "?")
+					{
+						dialogueName = string_copy(line,2,i-2);
+						dialogue = string_copy(line,i+1,200);
+						break;
+					}
+				}
+			
+			break;
+		
+			case "#": //background
+		
+				background = sprite_add(string_copy(line,2,60),0,false,false,0,0);
+				nextLine = true;
+				_repeat = true;
+		
+			break;
+		
+			case "&"://audio effect start
+				if ( audio_exists(audio) )
+				{
+					audio_destroy_stream(audio);
+				}
+				audio = audio_create_stream(string_copy(line,2,60));
+				audio_play_sound(audio,true,false);
+				nextLine = true;
+				_repeat = true;
+			
+			break;
+			
+			case "*":
+				nextAct = true; //temp pls fix
+				nextLine = true;
+			break;
+			
+			case "%": //BGM start
+			
+				if ( audio_exists(bgm) )
+				{
+					audio_destroy_stream(bgm);
+				}
+				bgm = audio_create_stream(string_copy(line,2,60));
+				audio_play_sound(bgm,true,true);
+				nextLine = true;
+				_repeat = true;
+			
+			break;
+			
+			case "§": //Audio effect stop
+				audio_stop_sound(audio);
+				if ( audio_exists(audio) )
+				{
+					audio_destroy_stream(audio);
+				}
+				nextLine = true;
+				_repeat = true;
+			break;
+		
+			case "¤"://Bgm stop
+				audio_stop_sound(bgm);
+				if ( audio_exists(bgm) )
+				{
+					audio_destroy_stream(bgm);
+				}
+				nextLine = true;
+				_repeat = true;
+			break;
+			
+			case "+":
+			
+				show_debug_message(string_copy(line,2,9));
+				auto_advance_timer = real(string_copy(line,2,9));
+				
+				
+				nextLine = true;
+			
+			break;
+			
+			case "^":
+			
+			dialogue_typewriter_speed = real(string_copy(line,2,9));
+			
+			if ( dialogue_typewriter_speed == 0 ) { dialogue_typewriter_speed = 999999; }
+			
+			nextLine = true;
+			
+			break;
+			
+			default:
+				nextLine = true;
+			break;
+		}
+		file_text_readln(currentAct);
+	}
+}
