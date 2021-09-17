@@ -12,7 +12,7 @@ NEW AWESOME COMMANDS!
 !audioplay sound.ogg		Make som noise, .ogg files only!
 !audiostop			Destroys the current sound effect 
 
-!bgmplay sound.ogg		Start jammin with background music, .ogg files only!
+!bgmstart sound.ogg		Start jammin with background music, .ogg files only!
 !bgmstop			Stops the current background music from playing
 
 !nextact			Advances to the next act.txt file
