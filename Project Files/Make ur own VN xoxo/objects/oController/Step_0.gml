@@ -121,7 +121,7 @@ while (_repeat )
 				
 				var _o, _sprite_name, _pos = 0;
 				
-				for( var _e = 2; _e < 20; _e++)
+				for( var _e = 2; _e < 40; _e++)
 				{
 					_o = string_copy(line,_e,1);
 					if ( _o == " ")
