@@ -7,7 +7,8 @@ enum DIRECTION
 }
 
 snake_arena_size = 20;
-snake_arean_grid_x = 2
+snake_arena_grid_x = 2;
+snake_arena_grid_y = 2;
 
 snake_gameover = false;
 
@@ -41,9 +42,9 @@ candy =
 
 function Candy_Spawn()
 {
-	candy.x = irandom_range(2,19) * snake_grid_size;
-	candy.y = irandom_range(2,19) * snake_grid_size;
-	snake_speed += 0.005;
+	candy.x = irandom_range(snake_arena_grid_x+1,snake_arena_size-1) * snake_grid_size;
+	candy.y = irandom_range(snake_arena_grid_y+1,snake_arena_size-1) * snake_grid_size;
+	snake_speed += 0.0025;
 }
 Candy_Spawn();
 
@@ -67,5 +68,15 @@ function Snake_Collision()
 		{
 			snake_gameover = true;
 		}
+	}
+	
+	if( snake_x / snake_grid_size > snake_arena_size + 1 || snake_x / snake_grid_size < snake_arena_grid_x + 1 )
+	{
+		snake_gameover = true;	
+	}
+	
+	if( snake_y / snake_grid_size > snake_arena_size + 1 || snake_y / snake_grid_size < snake_arena_grid_y + 1 )
+	{
+		snake_gameover = true;	
 	}
 }
