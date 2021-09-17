@@ -3,16 +3,18 @@ NEW AWESOME COMMANDS!
 /				This is a comment. it will be ignored
 
 !dia NAME! DIALOGUE		Displays text & name, make shure to not forget the '!' after the name
-!actor NUM sprite.jpg		Displays a sprite at a certain location [0-4]
+!actor NUM IMAGEFILE		Displays/replaces a sprite at a certain location [0-4]
 !killactor NUM			Kills actor in specified location [0-4]
-!bg background.jpg 		Sets the current background image
+!mirror_actor NUM		Mirrors an actor sprite
 
-!border IMG			sets the current scrolling border image
+!bg IMAGEFILE			Sets the current background image
 
-!audioplay sound.ogg		Make som noise, .ogg files only!
+!border IMAGEFILE		sets the current scrolling border image
+
+!audioplay SOUNDFILE		Make som noise, .ogg files only!
 !audiostop			Destroys the current sound effect 
 
-!bgmstart sound.ogg		Start jammin with background music, .ogg files only!
+!bgmstart SOUNDFILE		Start jammin with background music, .ogg files only!
 !bgmstop			Stops the current background music from playing
 
 !nextact			Advances to the next act.txt file
@@ -23,43 +25,44 @@ NEW AWESOME COMMANDS!
 !goto NUM			goes to specified text line
 
 
+Confused? check examples below :)
+
 //
 ////choice early access below
-//
+// This system is currently broken af, use at own risk
 !answer ID
 !choice ID
 !choice_end
 
 //ex
-!dia !What will u do!??!?!
+!dia Man!What will u do!??!?!
 !choice KILL
 !choice SPARE
 !choice_end
 
 !answer KILL
-!dia !you did the kill
+!dia Boye!you did the kill
 !goto 999
 
 !answer SPARE
-!dia  !you did the spare
+!dia Boye!you did the spare
 !goto 999
 
 
 
-//Examples below
+//Basic ass example below
 
 !bg mushroom_kingdom.png
 
 !typewriterspeed 0.75
 
-!actor mario.jpg
-!actor luigi.png
+!actor 1 mario.jpg
+!actor 2 luigi.png
 
 !dia Mario! My brother Luigi gonna show you his cock
 !dia Luigi! Hello Mario, Hello I'm Luigi
 
-!actor luigi.png
-!actor luigi_menacing.png
+!actor 2 luigi_menacing.png
 
 !bgmstart rape_music.ogg
 !audioplay laugh.ogg
