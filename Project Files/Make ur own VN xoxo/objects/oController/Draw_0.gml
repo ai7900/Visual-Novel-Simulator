@@ -196,6 +196,27 @@ if ( dialogue_history_toggle )
 	}
 }
 
+
+var _subimg = 0;
+if ( MouseInArea(64,_border_top-11,103,_border_top) )
+{
+	_subimg = 1;
+	can_advance = false;
+	
+	if ( mouse_check_button_pressed(mb_left) )
+	{
+		if ( instance_exists(oSnake_Controller) )
+		{
+			instance_destroy(oSnake_Controller);
+		}
+		else
+		{
+			instance_create_layer(0,0,"snake",oSnake_Controller);
+		}
+	}
+}
+draw_sprite(sSnakeButton,_subimg,64,_border_top);
+
 /*
 var _recx = 65;
 var _recy = 280;

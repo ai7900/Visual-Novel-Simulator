@@ -17,7 +17,7 @@ snake_score = 0;
 snake_speed = 0.2;
 snake_countdown = 0;
 
-snake_move_direction = DIRECTION.LEFT;
+snake_move_direction = DIRECTION.RIGHT;
 
 snake_x = 90;
 snake_y = 90;
