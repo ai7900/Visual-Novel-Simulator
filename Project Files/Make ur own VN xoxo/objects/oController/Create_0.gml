@@ -1,11 +1,13 @@
 // Shader stuff
+var w = camera_get_view_width(MainCamera);
+var h = camera_get_view_height(MainCamera);
+textSurface = surface_create(w,h);
+
 upixelH = shader_get_uniform(shOutline, "pixelH");
 upixelW = shader_get_uniform(shOutline, "pixelW");
-texelW = texture_get_texel_width(sprite_get_texture(sprite_index,0));
-texelW = texture_get_texel_height(sprite_get_texture(sprite_index,0));
+texelW = texture_get_texel_width(surface_get_texture(textSurface));
+texelW = texture_get_texel_height(surface_get_texture(textSurface));
 
-
-//
 
 //C:\Users\Andreas\Documents\GameMakerStudio2\Make ur own VN xoxo\datafiles
 //this obj handles basically everything lmao
