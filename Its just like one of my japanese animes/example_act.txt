@@ -1,3 +1,13 @@
+!set y-pos for #1 +97px
+!set y-pos for #2 +0px
+!set y-pos for #3 -10px
+!set y-pos for #4 256px
+
+
+!textbox toggle
+
+
+
 !actor human_normal.png
 !dia  ???! sup
 

@@ -1,0 +1,14 @@
+!border border.png
+!bgmplay agokko.ogg
+!bg dark_forest.jpg
+
+!dia ! -- Unknown --
+
+!actor 2 neco_normal.png
+!dia Neco Arc! .
+!dia Neco Arc! . .
+!dia Neco Arc! . . .
+
+!killactor 2
+!actor 2 neco_talk.png
+!dia Neco Arc! This place is too damn damp...
