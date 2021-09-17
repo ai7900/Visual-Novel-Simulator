@@ -9,16 +9,11 @@
 
 !dia ネコ・アルク! ニャー, Uh, I mean... Nyaa!
 
-!killactor 2
 !actor 2 neco_talk.png
 !dia Neko Ark! sure is dark around here nyo~
 
-!killactor 2
 !actor 2 neco_normal.png
 !dia Neko Ark! ...
-
-!killactor 2
-!actor 2 neco_talk.png
 !dia Neco Arc! What's that?
 
 !killactor 2
@@ -28,8 +23,6 @@
 !killactor 1
 !actor 0 neco_normal.png
 !dia !
-
-!killactor 0
 !actor 0 neco_uh.png
 !dia Neco Arc! Oh no...
 !dia Neco Arc! What the fuck is that, n-nya~...

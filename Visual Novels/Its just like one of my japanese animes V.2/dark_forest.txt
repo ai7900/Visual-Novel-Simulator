@@ -9,6 +9,5 @@
 !dia Neco Arc! . .
 !dia Neco Arc! . . .
 
-!killactor 2
 !actor 2 neco_talk.png
 !dia Neco Arc! This place is too damn damp...

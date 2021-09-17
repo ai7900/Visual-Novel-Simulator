@@ -1,3 +1,12 @@
+// Shader stuff
+upixelH = shader_get_uniform(shOutline, "pixelH");
+upixelW = shader_get_uniform(shOutline, "pixelW");
+texelW = texture_get_texel_width(sprite_get_texture(sprite_index,0));
+texelW = texture_get_texel_height(sprite_get_texture(sprite_index,0));
+
+
+//
+
 //C:\Users\Andreas\Documents\GameMakerStudio2\Make ur own VN xoxo\datafiles
 //this obj handles basically everything lmao
 draw_set_font(fnt_urmom);
