@@ -1,5 +1,5 @@
 !bgmplay Silhouette_music.ogg
-!border border_red.png
+!border border_stars.png
 !bg Shojo.png
 !dia ! Mattias Hotel Brothers 4: Journey of the Missing Drawing Skill
 
