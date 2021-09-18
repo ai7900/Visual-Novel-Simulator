@@ -112,15 +112,32 @@ draw_set_alpha(0.25);
 draw_rectangle_color(85,_border_top+3,_width-85,_bot-3,c_black,c_black,c_black,c_black,false);
 draw_set_alpha(1);
 
-shader_set(shOutline);
-shader_set_uniform_f(upixelW, texelW);
-shader_set_uniform_f(upixelH, texelH);
+
+
+// if surface somehow does not exist
+// Create new surface
+if(!surface_exists(textSurface)){
+	var _w = camera_get_view_width(MainCamera);
+	var _h = camera_get_view_height(MainCamera);
+	textSurface = surface_create(_w,_h);
+}
+
+surface_set_target(textSurface)
 
 draw_set_color(c_white);
 draw_set_font(font);
 draw_text_ext_transformed(_textpos_x,_textpos_y,dialogue_typewriter,30,1200,0.75,0.75,0);
 draw_set_font(font);
 draw_text_transformed(_textpos_x+10,_textpos_y-25,dialogueName,0.75,0.75,0);
+
+surface_reset_target()
+
+
+shader_set(shOutline);
+shader_set_uniform_f(upixelW, texelW);
+shader_set_uniform_f(upixelH, texelH);
+
+draw_surface(textSurface, 0, 0);
 
 shader_reset();
 
