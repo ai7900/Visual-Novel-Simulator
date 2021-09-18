@@ -1,0 +1,70 @@
+!bgmplay Silhouette_music.ogg
+!border border_red.png
+!bg Shojo.png
+!dia ! Mattias Hotel Brothers 4: Journey of the Missing Drawing Skill
+
+!bgmstop
+!audioplay sleeping_sfx.ogg
+!bg mattias_vardagsrum.jpg
+!actor 3 mattias_lookingdown.png
+!dia Mattias! Z..
+!dia Mattias! Z z.
+!dia Mattias! Z z z
+
+!audiostop
+!audioplay Discord_notis.ogg
+!dia ! *Discord notification alert*
+
+!actor 3 mattias_think.png
+!dia Mattias! HUH!? hu? What the fuk was that?
+!dia Mattias! ...
+!dia ! *click*
+!dia ! *click!*
+!dia Mattias! Oh Gabriel-sama(my best and only tomodachi) wants something on Dickord.
+!dia Mattias! "I'm getting on the train now to finally come visit you in Malmö" -Gabriel.
+
+!audioplay Discord_notis.ogg
+!dia Gabriel (Discord)! C ya soon fagget shid!
+
+!audioplay Discord_notis.ogg
+!dia Gabriel(Discord)! shid*
+
+!audioplay Discord_notis.ogg
+!dia Gabriel(Discord)! shit**
+
+!actor 3 mattias_ful.png
+!dia Mattias! Oh fuk. And watashi was thinking of spending my whole day playing Mario games.
+!actor 3 mattias_think.png
+!dia Mattias! Guess I'll have to get my crusty ass out of my semen-semented chair then and clean my room..
+!dia Mattias! Ugh..
+
+!audioplay Crusty_sfx.ogg
+!killactor 3
+!dia ! Mattias get's out of his chair
+
+!bg mattias_vardagsrum2.jpg
+!dia ! ...
+
+!actor 1 mattias_ful.png
+!dia Mattias! Damn, it's messy in here...
+!dia Mattias! Fuck that, maybe another day I guess.
+!killactor 1
+
+!audioplay Crusty_sfx.ogg
+!bg mattias_vardagsrum.jpg
+!actor 3 mattias_think.png
+!dia ! Mattias sits down in his chair again
+
+!audioplay Sleeping_sfx.ogg
+!actor 3 mattias_lookingdown.png
+!dia ! ...
+!dia ! Z
+!dia ! Z z
+!dia ! Z z z
+!dia ! Meanwhile...
+
+!dia ! In Another Distant Part of the Country...
+!nextact
+
+
+

@@ -1,0 +1,241 @@
+/ASSETS:
+/!bg japan.jpg
+/!bg mattias_kök.jpg
+/!bg mattias_vardagsrum.jpg
+/!bg mattias_vardagsrum2.jpg
+/!bg malmö.jpg
+/!bg malmö_carfires.jpg
+/!bg train1.jpg
+/!bg train2.jpg
+/!bg vg.jpg
+
+/!actor 1 gabe_left.png
+/!actor 1 gabe_right.png
+/!actor 1 gabe_wut.png
+/!actor 1 mattias_disgusted.png
+/!actor 1 mattias_ful.png
+/!actor 1 mattias_lookingdown.png
+/!actor 1 mattias_nazi.png
+/!actor 1 mattias_think.png
+/!actor 1 mario_idle.png
+/!actor 1 luigi_idle.png
+/!actor 1 plastic_man.png
+
+/!audioplay Crusty_sfx.ogg
+/!audioplay Discord_notis.ogg
+/!audioplay Sleeping_sfx.ogg
+/!bgmplay Crowd_ambiance.ogg
+/!audioplay Door1_openAndClose_sfx.ogg
+/!audioplay Door2_openAndClose_sfx.ogg
+/!audioplay Door1_open_sfx.ogg
+/!audioplay Door2_open_sfx.ogg
+/!audioplay Door1_close_sfx.ogg
+/!audioplay Door2_close_sfx.ogg
+/!audioplay Door_lock.ogg
+
+!bgmplay Crowd_ambiance.ogg
+!bg train2.jpg
+!dia ! Karlskrona Train Station
+
+!dia ! Footsteps approaches
+!actor 1 gabe_right.png
+!dia Gabriel! Whelp! Here I am finally!
+!dia Gabriel! On my way to see Mattias-kun in Malmö.
+!dia Gabriel! After all these years...
+!dia Gabriel! Well, I better go take a seat as the train is about to take off.
+
+!bgmstop
+!audioplay Door1_open_sfx.ogg
+!bg train.jpg
+!killactor 1
+!dia ! Gabriel enters the seating area of the train
+
+!audioplay Door1_close_sfx.ogg
+!bgmplay Train_inside_ambiance.ogg
+!actor 1 gabe_right.png
+!dia ! *step*
+
+!killactor 1
+!actor 2 gabe_right.png
+!dia ! *step*
+
+!killactor 2
+!actor 3 gabe_right.png
+!dia ! *step*
+
+!actor 3 gabe_left.png
+!dia Gabriel! This seat looks neat.
+
+!bgmstop Train_inside_ambiance.ogg
+!audioplay Crusty_sfx.ogg
+!dia ! *sits down*
+
+!audiostop Crusty_sfx.ogg
+!bgmplay Train_inside_ambiance.ogg
+!dia Gabriel! I'll be there in no time.
+!dia ! Train takes off
+
+!bgmplay TrainAndMusic_music.ogg
+!dia ! Peaceful Anime Traveling Scenery Montage Starts
+!killactor 3
+!bg train3.jpg
+!dia ! ...
+!bg train_pokemon.jpg
+!dia ! ...20Min Later
+!bg train_outside1.jpg
+!dia ! ...1H 25Min Later
+!bg train.jpg
+
+!actor 3 gabe_left.png
+!dia !.
+!dia !..
+!dia !...
+!dia Gabriel! Hmm. I should call Mattias-kun and make sure that he hasn't killed himself or anything.
+
+!actor 3 gabe_wut.png
+!dia Gabriel! You never know with retards like him.
+
+!actor 3 gabe_left.png
+!dia Gabriel! I should also tell the fat fuck that I've almost arrived now.
+!dia ! *Picks up phone*
+!dia ! Gabriel calls Mattias
+
+!bgmstop TrainAndMusic_music.ogg
+!bgmplay Sleeping_sfx.ogg
+!bg mattias_vardagsrum.jpg
+!actor 3 mattias_lookingdown.png
+!dia Mattias! Z..
+!dia Mattias! Zz.
+!dia Mattias! Zzz Mmmh yes~ 
+!dia Mattias! Zzz ..Just like that...
+!dia Mattias! Zzz ..Ahh~ Just don't tell your brother Luigi about all this. 
+
+!audiostop Sleeping_sfx.ogg
+!bgmplay Discord_call_sfx.ogg
+!dia ! Incoming Discord Call
+
+!actor 3 mattias_disgust.png
+!dia Mattias! HUH!
+
+!actor 3 mattias_think.png
+!dia Mattias! Oh, It's Gabriel-sama!
+
+!actor 3 mattias_idle.png
+!dia Mattias! Man.. He's such a true friend for calling me like this out of nowhere!
+
+!bgmstop Discord_call.ogg
+!audioplay Discord_joincall_sfx.ogg
+!dia ! *Joins call*
+
+!dia Gabriel(Discord)! Konnichiwa Mattias-san, Genki desu ka?
+
+!actor 3 mattias_disgust.png
+!dia Mattias! It's "Mattias-kun" you spastic FUCKING piece of retarded resedue of trash!
+!dia Gabriel(Discord)! Okay geez.. Forget about it. Anywa..
+
+!actor 3 mattias_think.png
+!dia Mattias! No, it's not "oKaY", Read a fucking manga for once.
+
+!actor 3 mattias_idle.png
+!dia Mattias! Like me!
+!dia Mattias! Yeah, I read mangas.
+
+!audioplay Discord_joincall_sfx.ogg
+!dia ! Andu joins the call
+!dia Andu(Discord)! "Like Ma.."
+!dia Andu(Discord)! "Like Matti.." 
+!dia Andu(Discord)! "Read mangas, like Mattias"
+
+!actor 3 mattias_disgust.png
+!dia Andu(Discord)! "Criiinge, like Mattias"
+
+!audioplay Discord_leavecall_sfx.ogg
+!dia ! Andu leaves the call
+!dia !.
+!dia !..
+!dia !...
+
+
+!actor 3 mattias_think.png
+!dia Gabriel(Discord)! Damn... F A C T S.
+!dia Mattias! ..oh yeah?
+
+!actor 3 mattias_idle.png
+!dia Mattias! Well.. I get all my facts from reading manga.
+!dia Mattias! Yep, that's me.
+!dia Mattias! I read mangas. That's my thing. 
+
+!dia Gabriel(Discord)! Okay! we get it.
+!dia Gabriel(Discord)! You don't have any other cherishable personallity traits.
+
+!actor 3 mattias_think.png
+!dia Gabriel(Discord)! Now stfu about it.
+!dia Gabriel(Discord)! Anyways, I was meaning to tell you that I'm almost in Malmö now.
+!dia Gabriel(Discord)! ... You did complete the VN you promised to make!dia !
+
+!actor 3 mattias_lookingdown.png
+!dia Mattias! ...
+
+!dia Gabriel(Discord)! Did you?
+
+!actor 3 mattias_think.png
+!dia Mattias! Ye, no... I'm sorry
+!dia Mattias! I spent all day playing Mario Party all by myself and drawing Mario fucking Peach in Krita.
+
+!dia Gabriel(Discord)! Dude, what's with you and Mario?
+
+!dia Mattias! Man.. idk,
+!dia Mattias! I just want to unbuckle his braces and pull off his blue tight pants and..
+
+!dia Gabriel(Discord)! DUDE!
+!dia Gabriel(Discord)! Okay! stop please
+
+!actor 3 mattias_lookingdown.png
+!dia Mattias! ...
+
+!actor 3 mattias_think.png
+!dia Gabriel(Discord)! Oh also!
+!dia Gabriel(Discord)! Have you heard about what happened in Japan!dia !
+!dia Mattias! Dude.. Who fucking cares what happens in Japan omegalul xd.
+!dia Mattias! Like what has Japan ever produced that I'd like?
+!dia Gabriel(Discord)! I'm not sure dude. But apparently a super secret drawing technique leaked from an anime studio.
+!dia Gabriel(Discord)! We must go there and seek for it's knowledge!
+!dia Mattias! ...
+!dia Mattias! What in fuck is "aNiMe"?
+!dia Gabriel(Discord)! ...
+!dia Gabriel(Discord)! You want to hone your manga drawing skills, don't you!dia !
+
+!actor 3 mattias_ful.png
+!dia Mattias! Uuuurgh DUUURR!!! yeah but what does that have to do with anime and japa..
+!dia Gabriel(Discord)! Manga is from Japan Mattias!
+
+!actor 3 mattias_think.png
+!dia Mattias! Whaa no
+!dia ! Wha..
+!dia Gabriel(Discord)! d-Dude are you fucking serious right now!dia !
+!dia Gabriel(Discord)! But nevertheless. You'll have to trust me on this one.
+!dia Gabriel(Discord)! We shall go there once you've showed me Malmö.
+!dia Gabriel(Discord)! OH! Here's my stop.
+!dia Gabriel(Discord)! I already have your address from earlier when you kept begging for me to come visit.
+!dia Gabriel(Discord)! So I'll find my way to your place and I'll see you soon!
+
+!audioplay Discord_leavecall_sfx.ogg
+!dia ! Gabriel leaves the call
+!dia Mattias! Huh..
+
+!actor 3 mattias_idle.png 
+!dia Mattias! You heard that Andu?
+!dia Mattias! We have company.
+
+!actor 2 mattias_idle.png
+!actor 3 andu_cool.png
+!dia ! Andu get's out of Mattias bed and steps into frame
+!dia Andu! Damn cringe yo, Bustin' no cap, finna Uwu ngl
+!dia Andu! Shit be slammin' yo!
+!dia Mattias! ...
+!dia Andu! ...
+!dia ! ...
+
+!nextact
+
+
