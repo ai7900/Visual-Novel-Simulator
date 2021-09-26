@@ -25,10 +25,23 @@
 !dia !
 !actor 0 neco_uh.png
 !dia Neco Arc! Oh no...
+!killactor 0
+!audioplay skyclad_sound_whoosh_resonant_wind_to_rumble_bass1.ogg
+!bg test_bg1.jpg
+!dia ! .
+!dia ! . .
+!bg test_bg2.jpg
+!autoadvance 30
+!audioplay metalic_cold_wisle.ogg
+!dia ! ! ! !
+!bg red_room.jpg
+!actor 0 neco_uh.png
+
 !dia Neco Arc! What the fuck is that, n-nya~...
 
 !killactor 0
 !actor 1 neco_uh.png
+!audioplay airy_wind.ogg
 !dia !
 
 !killactor 1

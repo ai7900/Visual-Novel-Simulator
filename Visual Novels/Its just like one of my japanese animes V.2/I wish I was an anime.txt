@@ -1,0 +1,77 @@
+!border border3.png
+!bgmplay homeworld.ogg
+!bg Homeworld_room.jpg
+
+!dia YOU! Ahh, another day, another anime waifu to make love to~
+!dia YOU! I wonder what kawaii (cunny (cute and funny)) anime I'm gonna watch today?
+!dia YOU! Uhhn, but sometimes I do wonder, what if I was an anime?
+!dia YOU! That wouldn've been awesome. But first I need to learn some more Nihongo japanese!
+!dia YOU! Ko ni chi wa, watashi ha kyoudai dekkai oppai daisuki desu~
+!dia YOU! Wow, that sounded perfect!
+!dia YOU! That's enough japanese practice for one day!
+!dia YOU! Time to watch some anime!
+
+!bg 5h_anime.png
+!audioplay anime_session.ogg
+!dia ! -- The hours go by --
+!audiostop
+
+!bg Homeworld_room.jpg
+!dia YOU! Mmh, yeah, kawaii-chan~ 
+!dia YOU! She's so metcha cute desuu!
+!dia YOU! Time to see her other side on the internet, hehe fugii~
+!typewriterspeed 0.25
+!dia YOU! Ugh... Have to turn around and walk to my computer...
+
+!typewriterspeed 1
+!bg Homeworld_room2.jpg
+!dia YOU! There we go!
+!dia YOU! Let's see here...
+!typewriterspeed 0.25
+!audioplay typing_keyboard.ogg
+!dia YOU! Kawaii-chan hentai, fugiigigigi!
+!typewriterspeed 1
+!actor 2 idol_pose.png
+!audioplay magic.ogg
+!dia YOU! Guuh, Kawaii-cahn is so KAWAIIII DESUU~
+!typewriterspeed 0.25
+!dia YOU! Guh, Guh, uuuhh, Gaaaah!
+!dia YOU! Oooh, I'm about too...
+!dia YOU! Ahh, guuuh, goooh, I'm gonna..-
+!typewriterspeed 1
+!dia YOU! I'm gonna Cooo-
+!dia ! Suddenly something jumps out from my computer screen!
+!actor 2 neco_talk.png
+!dia ???! Nya! So smelly in here!
+!dia YOU! GAAAAAHHH~
+!audioplay splooch.ogg
+!audioplay splooch.ogg
+!dia ! You bust your nut all over the mysterious creature!!
+!dia ???! Nyoo!!
+!bg I_coomed.jpg
+!killactor 2
+!dia ???! .
+!dia ???! . .
+!dia ???! NYAAAAA NYOOO! GROSS, nya! What is this?
+!dia YOU! Oh, fuck I'm so sorry!
+!dia ! You start to regain your senses after that huge coom.
+!dia ! You start to observe the creature infront of you as it cleans itself.
+!dia YOU! (waitaminute... Cat ears? Strange body, werid mouth IRL?)
+!dia YOU! (I-is this one of those..- CATGIRLS?!?)
+!dia YOU! Are yo-
+!typewriterspeed 1
+!actor 2 neco_talk.png
+!bg Homeworld_room2.jpg
+!dia ???! No time to explain, nyo! Come with me!
+!autoadvance 0.5
+!dia YOU! What?
+!dia ! The mysterious cat-girl creature grabs you by your big chinpo and you're dragged into your computer screen.
+!dia YOU! What, what are you..!-- 
+!dia YOU! AAAAAAAAAHHHH
+!killactor 2
+!dia ! .
+!dia ! . .
+!dia ! . . .
+!nextact
+
+
