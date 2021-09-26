@@ -127,19 +127,19 @@ surface_set_target(textSurface)
 draw_set_color(c_white);
 draw_set_font(font);
 draw_text_ext_transformed(_textpos_x,_textpos_y,dialogue_typewriter,30,1200,0.75,0.75,0);
-draw_set_font(font);
+draw_set_font(fnt_urmom_bold);
 draw_text_transformed(_textpos_x+10,_textpos_y-25,dialogueName,0.75,0.75,0);
 
 surface_reset_target()
 
-
+/*
 shader_set(shOutline);
 shader_set_uniform_f(upixelW, texelW);
 shader_set_uniform_f(upixelH, texelH);
-
+*/
 draw_surface(textSurface, 0, 0);
 
-shader_reset();
+//shader_reset();
 
 if ( next_text )
 {

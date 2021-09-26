@@ -1,2 +1,6 @@
-!dia dia! dia
-!dia ass ass(discord)! FUCK
+!border tile4.png
+!dia ! faf
+!border tile3.png
+!dia !ff
+!border tile5.png
+!dia !fff
