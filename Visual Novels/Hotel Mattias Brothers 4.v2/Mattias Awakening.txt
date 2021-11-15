@@ -1,5 +1,5 @@
-!bgmplay Silhouette_music.ogg
 !border border_stars.png
+!bgmplay Silhouette_music.ogg
 !bg Shojo.png
 !dia ! Mattias Hotel Brothers 4: Journey of the Missing Drawing Skill
 
@@ -15,6 +15,7 @@
 !audioplay Discord_notis.ogg
 !dia ! *Discord notification alert*
 
+!bgmplay Lazy.ogg
 !actor 3 mattias_think.png
 !dia Mattias! HUH!? hu? What the fuk was that?
 !dia Mattias! ...
@@ -54,7 +55,7 @@
 !bg mattias_vardagsrum.jpg
 !actor 3 mattias_think.png
 !dia ! Mattias sits down in his chair again
-
+!bgmstop
 !audioplay Sleeping_sfx.ogg
 !actor 3 mattias_lookingdown.png
 !dia ! ...
@@ -64,6 +65,8 @@
 !dia ! Meanwhile...
 
 !dia ! In Another Distant Part of the Country...
+!killactor 3
+
 !nextact
 
 

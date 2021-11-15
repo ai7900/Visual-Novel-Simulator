@@ -33,7 +33,42 @@
 /&Door2_close_sfx.ogg
 /&Door_lock.ogg
 
+!border border_stars.png
+!bgmplay Daily_Life.ogg
+!bg train_endstation.jpg
+!actor 1 gabe_right.png
+!dia Gabriel! So...
+!dia Gabriel! This is Malmö.. Huh.
 
-?? Chapter 3 Coming Soon...
+!killactor 1
+!bg malmö.jpg
+!actor 3 gabe_left.png
+!dia ! 
 
+!typewriterspeed 3
+!dia Gabriel! Trashy city for trashy people, heh.
+
+!typewriterspeed 1
+!autoadvance 60 
+!killactor 3
+!actor 2 gabe_left.png
+!dia ! 
+
+!autoadvance 60 
+!killactor 2
+!actor 1 gabe_left.png
+!dia ! 
+ 
+!killactor 1
+!dia ! Gabriel walks over to Mattias appartment
+
+!bgmstop
+!bg mattias_kök.jpg
+!actor 3 mattias_idle.png
+!mirror_actor 3
+!dia ! 
+
+
+
+!dia ! STOP LOLOLOL
 

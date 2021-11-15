@@ -33,6 +33,7 @@
 /!audioplay Door2_close_sfx.ogg
 /!audioplay Door_lock.ogg
 
+!border border_stars.png
 !bgmplay Crowd_ambiance.ogg
 !bg train2.jpg
 !dia ! Karlskrona Train Station
@@ -66,7 +67,7 @@
 !actor 3 gabe_left.png
 !dia Gabriel! This seat looks neat.
 
-!bgmstop Train_inside_ambiance.ogg
+!bgmstop
 !audioplay Crusty_sfx.ogg
 !dia ! *sits down*
 
@@ -100,7 +101,7 @@
 !dia ! *Picks up phone*
 !dia ! Gabriel calls Mattias
 
-!bgmstop TrainAndMusic_music.ogg
+!bgmstop
 !bgmplay Sleeping_sfx.ogg
 !bg mattias_vardagsrum.jpg
 !actor 3 mattias_lookingdown.png
@@ -123,16 +124,25 @@
 !actor 3 mattias_idle.png
 !dia Mattias! Man.. He's such a true friend for calling me like this out of nowhere!
 
-!bgmstop Discord_call.ogg
+!bgmstop 
 !audioplay Discord_joincall_sfx.ogg
 !dia ! *Joins call*
 
+!bgmplay Don't_be_a_stranger.ogg
+!typewriterspeed 3
 !dia Gabriel(Discord)! Konnichiwa Mattias-san, Genki desu ka?
+!typewriterspeed 1
 
+!bgmstop
 !actor 3 mattias_disgust.png
 !dia Mattias! It's "Mattias-kun" you spastic FUCKING piece of retarded resedue of trash!
-!dia Gabriel(Discord)! Okay geez.. Forget about it. Anywa..
 
+!bgmplay Don't_be_a_stranger.ogg
+!typewriterspeed 3
+!dia Gabriel(Discord)! Okay geez.. Forget about it. Anywa..
+!typewriterspeed 1
+
+!bgmplay Lazy.ogg
 !actor 3 mattias_think.png
 !dia Mattias! No, it's not "oKaY", Read a fucking manga for once.
 
@@ -170,8 +180,10 @@
 
 !actor 3 mattias_think.png
 !dia Gabriel(Discord)! Now stfu about it.
+
+!bgmplay Don't_be_a_stranger.ogg
 !dia Gabriel(Discord)! Anyways, I was meaning to tell you that I'm almost in Malmö now.
-!dia Gabriel(Discord)! ... You did complete the VN you promised to make!dia !
+!dia Gabriel(Discord)! ... You did complete the VN you promised to make
 
 !actor 3 mattias_lookingdown.png
 !dia Mattias! ...
@@ -187,15 +199,17 @@
 !dia Mattias! Man.. idk,
 !dia Mattias! I just want to unbuckle his braces and pull off his blue tight pants and..
 
+!bgmstop
 !dia Gabriel(Discord)! DUDE!
 !dia Gabriel(Discord)! Okay! stop please
 
 !actor 3 mattias_lookingdown.png
 !dia Mattias! ...
 
+!bgmplay Don't_be_a_stranger.ogg
 !actor 3 mattias_think.png
 !dia Gabriel(Discord)! Oh also!
-!dia Gabriel(Discord)! Have you heard about what happened in Japan!dia !
+!dia Gabriel(Discord)! Have you heard about what happened in Japan
 !dia Mattias! Dude.. Who fucking cares what happens in Japan omegalul xd.
 !dia Mattias! Like what has Japan ever produced that I'd like?
 !dia Gabriel(Discord)! I'm not sure dude. But apparently a super secret drawing technique leaked from an anime studio.
@@ -203,7 +217,7 @@
 !dia Mattias! ...
 !dia Mattias! What in fuck is "aNiMe"?
 !dia Gabriel(Discord)! ...
-!dia Gabriel(Discord)! You want to hone your manga drawing skills, don't you!dia !
+!dia Gabriel(Discord)! You want to hone your manga drawing skills, don't you
 
 !actor 3 mattias_ful.png
 !dia Mattias! Uuuurgh DUUURR!!! yeah but what does that have to do with anime and japa..
@@ -212,7 +226,7 @@
 !actor 3 mattias_think.png
 !dia Mattias! Whaa no
 !dia ! Wha..
-!dia Gabriel(Discord)! d-Dude are you fucking serious right now!dia !
+!dia Gabriel(Discord)! d-Dude are you fucking serious right now
 !dia Gabriel(Discord)! But nevertheless. You'll have to trust me on this one.
 !dia Gabriel(Discord)! We shall go there once you've showed me Malmö.
 !dia Gabriel(Discord)! OH! Here's my stop.
@@ -223,6 +237,7 @@
 !dia ! Gabriel leaves the call
 !dia Mattias! Huh..
 
+!bgmplay Emergency.ogg
 !actor 3 mattias_idle.png 
 !dia Mattias! You heard that Andu?
 !dia Mattias! We have company.
@@ -235,6 +250,9 @@
 !dia Mattias! ...
 !dia Andu! ...
 !dia ! ...
+
+!killactor 2
+!killactor 3
 
 !nextact
 
